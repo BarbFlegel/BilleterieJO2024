@@ -8,7 +8,7 @@
   - [Setup](#setup)
 
 ## General info
-This project, Billeterie for JO 2024 or Olympic Games Ticketing 2024, is developed as final project of the Bachelor developer of applications at Studi. The aim of this project is to create an ticketing e-store for olympic games to showcase the tickets they offer to visitors. This repository contains the back-end and fron-end part of the project. Front-end is developped using React.js. Back-end is developed using ASP.NET and API (swagger). The application respect onion architecture.
+This project, Billeterie for JO 2024 or Olympic Games Ticketing 2024, is developed as final project of the Bachelor developer of applications at Studi. The aim of this project is to create an ticketing e-store for olympic games to showcase the tickets they offer to visitors. This repository contains the back-end and fron-end part of the project. Front-end is developped using React.js and hosted on http://localhost:3000/. Back-end is developed using ASP.NET and API (swagger) on http://localhost:5000/. The application respects onion architecture.
 	
 ## Technologies
 Project is created with:
@@ -27,17 +27,23 @@ POSTGRESQL using Docker
 Cloudify for images
 	
 ## Setup
-To run this project FRONT-END part, install it locally using npm:
-
-To run this project BACK-END part, install it locally using npm:
+To run this project, install it locally using npm and dotnet:
 Install the following:
 1.ASP.NET version 8.0
 2.Node.js 12.x or higher
 3.npm or yarn package manager
-3.
+4.git clone https://github.com/BarbFlegel/BilleterieJO2024
 
-I
-```
-$ cd ../lorem
-$ npm install
-$ npm start
+
+Run following:
+FRONT-END part:
+1.cd client 
+2.npm install and npm start
+3.npm run
+4.http://localhost:3000/
+Back-END part:
+1.cd API 
+2.dotnet ef migrations add (maybe)
+3.dotnet ef database update (maybe)
+4.dotnet run
+5.http://localhost:5000/
