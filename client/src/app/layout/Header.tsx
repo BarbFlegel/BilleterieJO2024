@@ -71,6 +71,13 @@ export default function Header({ handleThemeChange, darkMode }: Props) {
                     >
                         INVENTORY
                     </ListItem>}
+                    <ListItem
+                        component={NavLink}
+                        to={'/promotion'}
+                        sx={navLinkStyles}
+                    >
+                        PROMOTION
+                    </ListItem>
                 </List>
 
                 <Box display='flex' alignItems='center'>
