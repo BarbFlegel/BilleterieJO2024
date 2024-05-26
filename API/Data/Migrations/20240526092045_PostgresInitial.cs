@@ -77,13 +77,8 @@ namespace API.Data.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     BuyerId = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_FullName = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_Address1 = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_Address2 = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_City = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_State = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_Zip = table.Column<string>(type: "text", nullable: true),
-                    ShippingAddress_Country = table.Column<string>(type: "text", nullable: true),
+                    ShippingEmailAddress_FullName = table.Column<string>(type: "text", nullable: true),
+                    ShippingEmailAddress_EmailAddress = table.Column<string>(type: "text", nullable: true),
                     OrderDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Subtotal = table.Column<long>(type: "bigint", nullable: false),
                     ServiceFee = table.Column<long>(type: "bigint", nullable: false),
@@ -227,12 +222,7 @@ namespace API.Data.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false),
                     FullName = table.Column<string>(type: "text", nullable: true),
-                    Address1 = table.Column<string>(type: "text", nullable: true),
-                    Address2 = table.Column<string>(type: "text", nullable: true),
-                    City = table.Column<string>(type: "text", nullable: true),
-                    State = table.Column<string>(type: "text", nullable: true),
-                    Zip = table.Column<string>(type: "text", nullable: true),
-                    Country = table.Column<string>(type: "text", nullable: true)
+                    EmailAddress = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {

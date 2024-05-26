@@ -74,7 +74,7 @@ public class OrdersController : BaseApiController
         {
             OrderItems = items,
             BuyerId = User.Identity.Name,
-            ShippingAddress = orderDto.ShippingAddress,
+            ShippingEmailAddress = orderDto.ShippingEmailAddress,
             Subtotal = subtotal,
             ServiceFee = serviceFee,
             PaymentIntentId = basket.PaymentIntentId
@@ -91,13 +91,8 @@ public class OrdersController : BaseApiController
 
             var address = new UserAddress
             {
-                FullName = orderDto.ShippingAddress.FullName,
-                Address1 = orderDto.ShippingAddress.Address1,
-                Address2 = orderDto.ShippingAddress.Address2,
-                City = orderDto.ShippingAddress.City,
-                State = orderDto.ShippingAddress.State,
-                Zip = orderDto.ShippingAddress.Zip,
-                Country = orderDto.ShippingAddress.Country
+                FullName = orderDto.ShippingEmailAddress.FullName,
+                EmailAddress = orderDto.ShippingEmailAddress.EmailAddress
             };
             user.Address = address;
         }

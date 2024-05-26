@@ -14,7 +14,7 @@ public static class OrderExtensions
                 Id = order.Id,
                 BuyerId = order.BuyerId,
                 OrderDate = order.OrderDate,
-                ShippingAddress = order.ShippingAddress,
+                ShippingEmailAddress = order.ShippingEmailAddress,
                 ServiceFee = order.ServiceFee,
                 Subtotal = order.Subtotal,
                 OrderStatus = order.OrderStatus.ToString(),

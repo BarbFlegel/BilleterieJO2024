@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240524140521_PostgresInitial")]
+    [Migration("20240526092045_PostgresInitial")]
     partial class PostgresInitial
     {
         /// <inheritdoc />
@@ -280,25 +280,10 @@ namespace API.Data.Migrations
                     b.Property<int>("Id")
                         .HasColumnType("integer");
 
-                    b.Property<string>("Address1")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Address2")
-                        .HasColumnType("text");
-
-                    b.Property<string>("City")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Country")
+                    b.Property<string>("EmailAddress")
                         .HasColumnType("text");
 
                     b.Property<string>("FullName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("State")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Zip")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -430,30 +415,15 @@ namespace API.Data.Migrations
 
             modelBuilder.Entity("API.Entities.OrderAggregate.Order", b =>
                 {
-                    b.OwnsOne("API.Entities.OrderAggregate.ShippingAddress", "ShippingAddress", b1 =>
+                    b.OwnsOne("API.Entities.OrderAggregate.ShippingEmailAddress", "ShippingEmailAddress", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .HasColumnType("integer");
 
-                            b1.Property<string>("Address1")
-                                .HasColumnType("text");
-
-                            b1.Property<string>("Address2")
-                                .HasColumnType("text");
-
-                            b1.Property<string>("City")
-                                .HasColumnType("text");
-
-                            b1.Property<string>("Country")
+                            b1.Property<string>("EmailAddress")
                                 .HasColumnType("text");
 
                             b1.Property<string>("FullName")
-                                .HasColumnType("text");
-
-                            b1.Property<string>("State")
-                                .HasColumnType("text");
-
-                            b1.Property<string>("Zip")
                                 .HasColumnType("text");
 
                             b1.HasKey("OrderId");
@@ -464,7 +434,7 @@ namespace API.Data.Migrations
                                 .HasForeignKey("OrderId");
                         });
 
-                    b.Navigation("ShippingAddress")
+                    b.Navigation("ShippingEmailAddress")
                         .IsRequired();
                 });
 
