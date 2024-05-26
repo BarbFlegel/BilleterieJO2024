@@ -13,7 +13,7 @@ import { LoadingButton } from '@mui/lab';
 import { StripeElementType } from '@stripe/stripe-js';
 import { CardNumberElement, useElements, useStripe } from '@stripe/react-stripe-js';
 
-const steps = ['Shipping address', 'Review your order', 'Payment details'];
+const steps = ['Shipping Email address', 'Review your order', 'Payment details'];
 
 export default function CheckoutPage() {
     const [activeStep, setActiveStep] = useState(0);
@@ -70,7 +70,7 @@ export default function CheckoutPage() {
 
     async function submitOrder(data: FieldValues) {
         setLoading(true);
-        const { nameOnCard, saveAddress, ...shippingAddress } = data;
+        const { nameOnCard, saveAddress, ...shippingEmailAddress } = data;
         if (!basket?.clientSecret || !stripe || !elements) return; // stripe is not ready;
         try {
             const cardElement = elements.getElement(CardNumberElement);
@@ -84,7 +84,7 @@ export default function CheckoutPage() {
             })
             console.log(paymentResult);
             if (paymentResult.paymentIntent?.status === 'succeeded') {
-                const orderNumber = await agent.Orders.create({ saveAddress, shippingAddress });
+                const orderNumber = await agent.Orders.create({ saveAddress, shippingEmailAddress });
                 setOrderNumber(orderNumber);
                 setPaymentSucceeded(true);
                 setPaymentMessage('Thank you - we have received your payment');
