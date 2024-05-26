@@ -1,3 +1,4 @@
+
 using System.Text;
 using API.Data;
 using API.Entities;
@@ -9,7 +10,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-//using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -113,15 +113,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseDefaultFiles();
-var cacheMaxAgeOneWeek = (60 * 60 * 24 * 7).ToString();
-app.UseStaticFiles(new StaticFileOptions
-{
-    OnPrepareResponse = ctx =>
-    {
-        ctx.Context.Response.Headers.Append(
-             "Cache-Control", $"public, max-age={cacheMaxAgeOneWeek}");
-    }
-});
+app.UseStaticFiles();
 
 app.UseCors(opt =>
 {
