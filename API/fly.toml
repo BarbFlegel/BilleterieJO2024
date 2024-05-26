@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for billetteriejo2024 on 2024-05-26T19:28:29+02:00
+# fly.toml app configuration file generated for billetterie2024 on 2024-05-26T19:57:06+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'billetteriejo2024'
+app = 'billetterie2024'
 primary_region = 'ams'
 
 [build]

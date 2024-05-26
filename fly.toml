@@ -1,7 +1,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "billetterieJO2024"
+app = "billetterie2024"
 primary_region = "sin"
 
 [build]
