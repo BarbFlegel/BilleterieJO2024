@@ -45,9 +45,9 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-string connString;
-//if (builder.Environment.IsDevelopment())
-connString = builder.Configuration.GetConnectionString("DefaultConnection");
+// string connString;
+// if (builder.Environment.IsDevelopment())
+// connString = builder.Configuration.GetConnectionString("DefaultConnection");
 // else
 // {
 //     // Use connection string provided at runtime by FlyIO.
@@ -69,7 +69,7 @@ connString = builder.Configuration.GetConnectionString("DefaultConnection");
 // }
 builder.Services.AddDbContext<StoreContext>(opt =>
 {
-    opt.UseNpgsql(connString);
+    opt.UseNpgsql("DefaultConnection");
 });
 
 builder.Services.AddCors();
