@@ -1,0 +1,23 @@
+# fly.toml app configuration file generated for billetteriejo on 2024-05-28T11:42:18+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'billetteriejo'
+primary_region = 'cdg'
+
+[build]
+  image = 'flegbarb/billetteriejo2024:latest'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
