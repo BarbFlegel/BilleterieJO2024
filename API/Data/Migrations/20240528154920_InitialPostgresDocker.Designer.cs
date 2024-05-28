@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20240528132259_FlyRetry")]
-    partial class FlyRetry
+    [Migration("20240528154920_InitialPostgresDocker")]
+    partial class InitialPostgresDocker
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
