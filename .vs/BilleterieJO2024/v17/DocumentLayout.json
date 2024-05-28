@@ -6,12 +6,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\flege\\AppData\\Roaming\\Microsoft\\UserSecrets\\6c075ff1-2bf8-435a-b6c2-1befcaea6d03\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|c:\\code\\billeteriejo2024\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|c:\\code\\billeteriejo2024\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|c:\\code\\billeteriejo2024\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +31,27 @@
               "RelativeDocumentMoniker": "..\\..\\Users\\flege\\AppData\\Roaming\\Microsoft\\UserSecrets\\6c075ff1-2bf8-435a-b6c2-1befcaea6d03\\secrets.json",
               "ToolTip": "C:\\Users\\flege\\AppData\\Roaming\\Microsoft\\UserSecrets\\6c075ff1-2bf8-435a-b6c2-1befcaea6d03\\secrets.json",
               "RelativeToolTip": "..\\..\\Users\\flege\\AppData\\Roaming\\Microsoft\\UserSecrets\\6c075ff1-2bf8-435a-b6c2-1befcaea6d03\\secrets.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-27T12:57:18.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Code\\BilleterieJO2024\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Code\\BilleterieJO2024\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAABCAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T19:05:57.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "API.csproj",
               "DocumentMoniker": "C:\\Code\\BilleterieJO2024\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "API\\API.csproj",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-26T18:57:38.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T18:57:38.433Z"
             }
           ]
         }
