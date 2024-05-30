@@ -1,18 +1,19 @@
+# fly.toml app configuration file generated for billetteriejo2024 on 2024-05-28T19:23:03+02:00
+#
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "billetteriejo"
-primary_region = "sin"
+app = 'billetteriejo2024'
+primary_region = 'sin'
 
 [build]
-  image = "flegbarb/billetteriejo2024:latest"
-   ignorefile = "/path/.dockerignore"
+  image = 'flegbarb/billetteriejo2024:latest'
 
 [env]
-  ASPNETCORE_URLS="http://+:8080"
-  StripeSettings__PublishableKey="pk_test_51PKfueKfTAK5M9Etcq92sDmbFpOJSIbBcRwHqB2CLuhXAl1FzqLFSlTLPYzJnGCH6DywpzuXnuFgTfAeHYJP8Wmp00XjUI8rhk"
-  Cloudinary__CloudName="dkgsvohev"
-  Cloudinary__ApiKey="984523251354247"
+  ASPNETCORE_URLS = 'http://+:8080'
+  Cloudinary__ApiKey = '984523251354247'
+  Cloudinary__CloudName = 'dkgsvohev'
+  StripeSettings__PublishableKey = 'pk_test_51PKfueKfTAK5M9Etcq92sDmbFpOJSIbBcRwHqB2CLuhXAl1FzqLFSlTLPYzJnGCH6DywpzuXnuFgTfAeHYJP8Wmp00XjUI8rhk'
 
 [http_service]
   internal_port = 8080
@@ -20,4 +21,9 @@ primary_region = "sin"
   auto_stop_machines = true
   auto_start_machines = true
   min_machines_running = 0
-  processes = ["app"]
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
