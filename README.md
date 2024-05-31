@@ -6,6 +6,7 @@
   - [General info](#general-info)
   - [Technologies](#technologies)
   - [Setup](#setup)
+  - [User Guide](#user-guide)
 
 ## General info
 This project, Billeterie for JO 2024 or Olympic Games Ticketing 2024, is developed as final project of the Bachelor developer of applications at Studi. The aim of this project is to create an ticketing e-store for olympic games to showcase the tickets they offer to visitors. This repository contains the back-end and fron-end part of the project. Front-end is developped using React.js and hosted on http://localhost:3000/. Back-end is developed using ASP.NET and API (swagger) on http://localhost:5000/. The application respects onion architecture.
@@ -46,3 +47,12 @@ Back-END part:
 - dotnet ef database update (maybe)
 - dotnet run
 - http://localhost:5000/
+
+## User Guide 
+Intro to SWAGGER and products
+https://share.zight.com/8LuNbBEv
+
+Intro to the website and products with filters
+https://share.zight.com/geu7bvNL
+
+
