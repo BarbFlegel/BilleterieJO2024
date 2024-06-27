@@ -1,12 +1,92 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Code\\BilleterieJO2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BAF3A05-E852-4ABC-9F41-558051B52C7D}|Tests\\UnitTests.csproj|c:\\code\\billeteriejo2024\\tests\\baskettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BAF3A05-E852-4ABC-9F41-558051B52C7D}|Tests\\UnitTests.csproj|solutionrelative:tests\\baskettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|c:\\code\\billeteriejo2024\\api\\extensions\\basketextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|solutionrelative:api\\extensions\\basketextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BAF3A05-E852-4ABC-9F41-558051B52C7D}|Tests\\UnitTests.csproj|c:\\code\\billeteriejo2024\\tests\\producttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BAF3A05-E852-4ABC-9F41-558051B52C7D}|Tests\\UnitTests.csproj|solutionrelative:tests\\producttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|c:\\code\\billeteriejo2024\\api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0C9329-0ABF-479E-8FC8-BA3CD55ECFB0}|API\\API.csproj|solutionrelative:api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasketTests.cs",
+              "DocumentMoniker": "C:\\Code\\BilleterieJO2024\\Tests\\BasketTests.cs",
+              "RelativeDocumentMoniker": "Tests\\BasketTests.cs",
+              "ToolTip": "C:\\Code\\BilleterieJO2024\\Tests\\BasketTests.cs",
+              "RelativeToolTip": "Tests\\BasketTests.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAWwFIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:20:00.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasketExtensions.cs",
+              "DocumentMoniker": "C:\\Code\\BilleterieJO2024\\API\\Extensions\\BasketExtensions.cs",
+              "RelativeDocumentMoniker": "API\\Extensions\\BasketExtensions.cs",
+              "ToolTip": "C:\\Code\\BilleterieJO2024\\API\\Extensions\\BasketExtensions.cs",
+              "RelativeToolTip": "API\\Extensions\\BasketExtensions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:16:25.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Code\\BilleterieJO2024\\API\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\Product.cs",
+              "ToolTip": "C:\\Code\\BilleterieJO2024\\API\\Entities\\Product.cs",
+              "RelativeToolTip": "API\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:13:42.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductTests.cs",
+              "DocumentMoniker": "C:\\Code\\BilleterieJO2024\\Tests\\ProductTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ProductTests.cs",
+              "ToolTip": "C:\\Code\\BilleterieJO2024\\Tests\\ProductTests.cs",
+              "RelativeToolTip": "Tests\\ProductTests.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:13:35.878Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
